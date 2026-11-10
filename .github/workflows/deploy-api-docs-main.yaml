@@ -3,6 +3,7 @@ name: Deploy Latest API Docs
 run-name: Deploy Latest API Docs on branch ${{ github.ref_name }}
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
 
